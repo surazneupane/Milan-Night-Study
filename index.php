@@ -1,50 +1,50 @@
 <?php 
 
-//    // no of user input from cli
+   // no of user input from cli
 
-//    $numberOfPeople = readline('Enter Number Of People : ');
+   $numberOfPeople = readline('Enter Number Of People : ');
 
-// //    print_r ( "The Number Of User You Entered :". $numberOfPeople. "<br>");
+//    print_r ( "The Number Of User You Entered :". $numberOfPeople. "<br>");
 
-//     //    for each user take their name and age
+    //    for each user take their name and age
 
-//     $userDetails = array();
+    $userDetails = array();
 
-//     for($i=1;$i<=$numberOfPeople;$i++)
-//     {
-//         $userDetails[$i]['Name'] = readline("Enter User Name at :");
-//         $userDetails[$i]['Age'] = readline("Enter User Age at :");
+    for($i=1;$i<=$numberOfPeople;$i++)
+    {
+        $userDetails[$i]['Name'] = readline("Enter User Name at :");
+        $userDetails[$i]['Age'] = readline("Enter User Age at :");
 
-//     }
+    }
 
 
    
 
-//     // echo sizeof($userDetails);
-//     // compare age and their position
-//     for($i=1;$i<=sizeof($userDetails);$i++)
-//     {
-//         if($userDetails[$i]['Age'] <= 10)
-//         {
-//             echo $userDetails[$i]['Name']."Is Children <br/>";
-//         }
-//             elseif($userDetails[$i]['Age']>10 && $userDetails[$i]['Age'] <= 30 )
-//             {
-//                echo $userDetails[$i]['Name']."Is Young <br/>";
+    // echo sizeof($userDetails);
+    // compare age and their position
+    for($i=1;$i<=sizeof($userDetails);$i++)
+    {
+        if($userDetails[$i]['Age'] <= 10)
+        {
+            echo $userDetails[$i]['Name']."Is Children <br/>";
+        }
+            elseif($userDetails[$i]['Age']>10 && $userDetails[$i]['Age'] <= 30 )
+            {
+               echo $userDetails[$i]['Name']."Is Young <br/>";
 
-//             }
-//             elseif($userDetails[$i]['Age']>30 && $userDetails[$i]['Age'] <= 50 )
-//             {
-//                echo $userDetails[$i]['Name']."Is Big Young <br/>";
+            }
+            elseif($userDetails[$i]['Age']>30 && $userDetails[$i]['Age'] <= 50 )
+            {
+               echo $userDetails[$i]['Name']."Is Big Young <br/>";
 
-//             }
+            }
             
-//             else{
-//                 echo $userDetails[$i]['Name']."Is Old <br/>";
+            else{
+                echo $userDetails[$i]['Name']."Is Old <br/>";
 
-//             }
+            }
     
-//         }
+        }
 
 
 
