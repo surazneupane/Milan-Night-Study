@@ -15,6 +15,6 @@
             $fibo= [...$fibo, $b]; // adds value of b to array 
         }
     }
-    var_dump($fibo); // shows values 
+     // shows values 
 
 ?>
