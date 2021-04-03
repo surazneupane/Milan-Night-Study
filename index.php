@@ -24,6 +24,11 @@ switch($whatTODo)
           echo printMyName();
           
             break;
+        case 7:
+            $num1=readline("enter 1st number: ");
+            $num2=readline("enter 2nd number: ");
+           echo  addition($num1, $num2);
+             break;
         
         default:
         echo "Please Enter Valid Input\n";
@@ -60,6 +65,11 @@ function primeNumber()
 {
 
 require_once "./prime.php";
+}
+
+function addition($a, $b):string{
+require_once "./addnumbers.php";
+    return "addition is".add($a, $b);
 }
 
 
