@@ -29,7 +29,7 @@
        case 5;
        $num1=readline("enter 1st number: ");
        $num2=readline("enter 2nd number: ");
-       echo allFunction($num1, $num2);
+       allFunction($num1, $num2);
        break;
    }
 
@@ -52,9 +52,9 @@
    function allFunction($a, $b){
        require_once "./allfunction.php";
         echo "Addition is: ".allfunction1($a, $b)."\n";
-        echo "Subtraction is: ".allfunction1($a, $b)."\n";
-        echo "Multiplication is: ".allfunction1($a, $b)."\n";
-        echo "Division is: ".allfunction1($a, $b)."\n";
+        echo "Subtraction is: ".allfunction2($a, $b)."\n";
+        echo "Multiplication is: ".allfunction3($a, $b)."\n";
+        echo "Division is: ".allfunction4($a, $b)."\n";
        
    }
 
