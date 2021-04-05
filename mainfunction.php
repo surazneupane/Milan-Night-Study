@@ -1,35 +1,27 @@
 <?php
    $sayCase=readline("enter cases: ");
+   $num1=readline("enter 1st number: ");
+   $num2=readline("enter 2nd number: ");
 
    switch($sayCase){
        case 1;
-       $num1=readline("enter 1st number: ");
-       $num2=readline("enter 2nd number: ");
        echo addFunction($num1, $num2);
        break;
 
        case 2;
-       $num1=readline("enter 1st number: ");
-       $num2=readline("enter 2nd number: ");
        echo subFunction($num1, $num2);
        break;
 
        case 3;
-       $num1=readline("enter 1st number: ");
-       $num2=readline("enter 2nd number: ");
        echo mulFunction($num1, $num2);
        break;
 
        case 4;
-       $num1=readline("enter 1st number: ");
-       $num2=readline("enter 2nd number: ");
        echo divFunction($num1, $num2);
        break;
        
        case 5;
-       $num1=readline("enter 1st number: ");
-       $num2=readline("enter 2nd number: ");
-       allFunction($num1, $num2);
+     echo   allFunction($num1, $num2);
        break;
    }
 
@@ -51,10 +43,7 @@
    }
    function allFunction($a, $b){
        require_once "./allfunction.php";
-        echo "Addition is: ".allfunction1($a, $b)."\n";
-        echo "Subtraction is: ".allfunction2($a, $b)."\n";
-        echo "Multiplication is: ".allfunction3($a, $b)."\n";
-        echo "Division is: ".allfunction4($a, $b)."\n";
+       return allInOne($a,$b);
        
    }
 
