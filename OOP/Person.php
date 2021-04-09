@@ -1,8 +1,8 @@
 <?php 
 
-class Person{
+class Person{  
 
-private $name;
+private $name; //this private property can only be accessed in this class 
 
 public function setName($enterdName)
 {
